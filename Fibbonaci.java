@@ -22,7 +22,7 @@ public class Fibbonaci {
         System.out.print("Jumlah : ");
         int n = input.nextInt();
         
-        for (int i = 1; i <= n; i++)
+        for (int i = n; i > 0; i--)
             System.out.print(fibbonaci(i) + " ");
     }
     
