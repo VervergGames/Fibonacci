@@ -22,8 +22,10 @@ public class Fibbonaci {
         System.out.print("Jumlah : ");
         int n = input.nextInt();
         
-        for (int i = 1; i <= n; i++)
-            System.out.print(fibbonaci(i) + " ");
+        int sum = 0;
+        for(int i = 1; i <= n; i++)
+            sum += fibbonaci(i);
+        System.out.print("Total : " + sum);
     }
     
     public static int fibbonaci(int n) {
